@@ -17,7 +17,7 @@
 </head>
 <body>
 	<img id="logo" src="logo.png" />
-	<h1><?php echo "My custom app (from tutum/lamp)!"; ?></h1>
+	<h1><?php echo "My Custom app from tutum"; ?></h1>
 	<?php if(!$link) { ?>
 		<h2>Can't connect to local MySQL Server!</h2>
 	<?php } else { ?>
